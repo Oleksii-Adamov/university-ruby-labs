@@ -1,1 +1,2 @@
-# university-ruby-labs
+# University Ruby Labs
+## first variant
