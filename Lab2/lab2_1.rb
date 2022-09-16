@@ -9,7 +9,6 @@ for i in 0...input_points.length do
   if i == input_points.length - 1
     next_index = 0
   end
-  puts i
   sum += (input_points[i][0] + input_points[next_index][0]) *
     (input_points[i][1] - input_points[next_index][1])
 end
