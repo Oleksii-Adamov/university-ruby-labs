@@ -35,7 +35,7 @@ def func_second(a, p)
 end
 
 #Tests
-class UnitTest1 < MiniTest::Unit::TestCase
+class UnitTest1 < MiniTest::Test
   def setup
     @a = true
     @b = false
@@ -75,7 +75,7 @@ class UnitTest1 < MiniTest::Unit::TestCase
 
 end
 
-class UnitTest2 < MiniTest::Unit::TestCase
+class UnitTest2 < MiniTest::Test
   def setup
     @a = 2.5
     @p = true

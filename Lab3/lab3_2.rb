@@ -23,7 +23,7 @@ def y_case(x)
   end
 end
 
-class UnitTestIf < MiniTest::Unit::TestCase
+class UnitTestIf < MiniTest::Test
   def setup
     #do nothing
   end
@@ -46,7 +46,7 @@ class UnitTestIf < MiniTest::Unit::TestCase
 
 end
 
-class UnitTestCase < MiniTest::Unit::TestCase
+class UnitTestCase < MiniTest::Test
   def setup
     #do nothing
   end
