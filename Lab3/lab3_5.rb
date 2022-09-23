@@ -76,6 +76,9 @@ class UnitTest < MiniTest::Test
   end
 end
 
+n = 2
+c = 5
+
 # 1)
 puts "1)"
 y_table = tabulate_y(n, c)
